@@ -8,6 +8,31 @@
 
 Tasks 7, 10 and 11 are the same machine with different documents: a register of what went out, a clock, an escalating chaser, and an internal escalation. I built that machine once (`shared/engine.py` / `reminder_engine.gs`) and pointed it at three registers — in my experience consolidating "reminder-shaped" workflows into one engine is where the real maintenance savings live.
 
+## Workflow at a glance
+
+```mermaid
+flowchart TD
+    T(["Document pack ready for client<br/>(CI, BR, NNC1 or annual return)"]) --> A["AI drafts the cover email:<br/>what each document is, where to<br/>sign, how to return it"]
+    A --> B["Sent; tracked in the register<br/>with date and expected signer"]
+    B --> C{"Signed and returned?<br/>(checked daily)"}
+    C -->|"Yes"| F(["Register closed —<br/>filing proceeds"])
+    C -->|"7 days"| D1["AI drafts gentle reminder"]
+    C -->|"14 days"| D2["AI drafts firm reminder:<br/>days outstanding, what's blocked"]
+    C -->|"21 days"| D3["AI drafts final reminder<br/>+ escalation memo with full history"]
+    D1 --> H{"Staff approve<br/>before sending"}
+    D2 --> H
+    D3 --> E{"Company secretary takes over —<br/>phone call suggested"}
+    H --> B
+    classDef ai fill:#ede7f6,stroke:#5e35b1,color:#1a1a1a
+    classDef human fill:#fff3e0,stroke:#ef6c00,color:#1a1a1a
+    classDef result fill:#e8f5e9,stroke:#2e7d32,color:#1a1a1a
+    class A,D1,D2,D3 ai
+    class H,E human
+    class F result
+```
+
+*Purple = AI does the work · Orange = a human decides · Green = the result.*
+
 ## Workflow
 
 | Step | Actor | Detail |

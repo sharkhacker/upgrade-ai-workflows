@@ -24,3 +24,8 @@ Roughly half this firm's clients operate in Chinese (WeChat-preferred contacts i
 ## Human checkpoint
 
 Secretary approves reminders before dispatch; stage-3 always lands on a human's desk with the full history.
+
+## Demo evidence *(links added at submission)*
+
+- Live prompt thread (Claude / ChatGPT shared conversation): _link_
+- Screen recording of this prototype running: _link_

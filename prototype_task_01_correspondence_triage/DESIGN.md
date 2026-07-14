@@ -8,6 +8,29 @@
 
 I've built similar intake triage for customer-support teams: the pattern is identical — a shared inbox where 20% of items are urgent, 30% are noise, and a human currently reads all 100%. The win comes from AI doing the reading and a human only approving the sends.
 
+## Workflow at a glance
+
+```mermaid
+flowchart TD
+    T(["Letter, email or parcel arrives"]) --> B["Scan / OCR into text"]
+    B --> C["AI reads and classifies:<br/>what is it, who is it for,<br/>how urgent, any deadline"]
+    C --> D["Logged in the mail register,<br/>filed in the client's folder"]
+    C -.->|"court document or valuables"| J["Immediate staff alert,<br/>same-day handling"]
+    C --> E{"Does the client<br/>need to know?"}
+    E -->|"No (junk, routine statements)"| F(["Done — filed and searchable"])
+    E -->|"Yes"| G["AI drafts the message 3 ways:<br/>Email, WhatsApp, WeChat 中文"]
+    G --> H{"Staff review<br/>and approve"}
+    H --> I(["Client notified within the hour<br/>on their preferred channel"])
+    classDef ai fill:#ede7f6,stroke:#5e35b1,color:#1a1a1a
+    classDef human fill:#fff3e0,stroke:#ef6c00,color:#1a1a1a
+    classDef result fill:#e8f5e9,stroke:#2e7d32,color:#1a1a1a
+    class C,G ai
+    class H,J human
+    class D,F,I result
+```
+
+*Purple = AI does the work · Orange = a human decides · Green = the result.*
+
 ## Workflow
 
 | Step | Actor | Detail |

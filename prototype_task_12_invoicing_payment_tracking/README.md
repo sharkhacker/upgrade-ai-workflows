@@ -31,3 +31,8 @@ Two deliberate ones: the accountant approves every outbound email, and **only a 
 
 - Dunning stays courteous at every stage — this is a professional-services relationship, not debt collection; stage 3 offers to discuss disputes before escalating.
 - Draft invoices are never dunned; paid invoices exit the loop with a receipt.
+
+## Demo evidence *(links added at submission)*
+
+- Live prompt thread (Claude / ChatGPT shared conversation): _link_
+- Screen recording of this prototype running: _link_

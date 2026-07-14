@@ -28,3 +28,8 @@ No notification is auto-sent. Drafts land in `sample_output/notifications/` for 
 - Physical valuables (chops, share certificates) → notification must confirm secure storage.
 - Marketing junk → logged but never forwarded, keeping client channels high-signal.
 - Unrecognized items → routed to manual review rather than guessed.
+
+## Demo evidence *(links added at submission)*
+
+- Live prompt thread (Claude / ChatGPT shared conversation): _link_
+- Screen recording of this prototype running: _link_

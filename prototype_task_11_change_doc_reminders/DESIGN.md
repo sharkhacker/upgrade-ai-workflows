@@ -8,6 +8,28 @@
 
 Change documents are the highest-risk unsigned pile: each one has a statutory filing clock behind it (ND2A within 15 days of the change, NSC1 within a month of allotment…). And this firm's clients are bilingual — the demo data mirrors that with WeChat-preferred, Chinese-language contacts. So this workflow gets two upgrades over the generic chaser: **every reminder is drafted in English and Traditional Chinese**, and delivery follows the client's preferred channel.
 
+## Workflow at a glance
+
+```mermaid
+flowchart TD
+    T(["Change document sent to client<br/>(director change, share transfer,<br/>address change, allotment)"]) --> A["Register records: document type,<br/>date sent, who signs, client's<br/>language and preferred channel"]
+    A --> C{"Signed and returned?<br/>(checked daily)"}
+    C -->|"Yes"| F(["Change filed with<br/>Companies Registry"])
+    C -->|"7 / 14 / 21 days"| D["AI drafts the reminder in<br/>BOTH English and 繁體中文 —<br/>tone escalates with each stage"]
+    D --> H{"Staff approve"}
+    H --> E["Delivered on the client's channel:<br/>a WeChat client gets 中文 on WeChat,<br/>not English in an unread inbox"]
+    E --> C
+    C -->|"still unsigned at 21+ days"| S{"Escalation memo —<br/>company secretary calls<br/>the client"}
+    classDef ai fill:#ede7f6,stroke:#5e35b1,color:#1a1a1a
+    classDef human fill:#fff3e0,stroke:#ef6c00,color:#1a1a1a
+    classDef result fill:#e8f5e9,stroke:#2e7d32,color:#1a1a1a
+    class D ai
+    class H,S human
+    class F result
+```
+
+*Purple = AI does the work · Orange = a human decides · Green = the result.*
+
 ## Workflow
 
 | Step | Actor | Detail |

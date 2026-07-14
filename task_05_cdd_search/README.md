@@ -8,6 +8,28 @@
 
 CDD is the one task on this list where "the AI decided" is not an acceptable audit answer. So the division of labour is strict: the **search** is deterministic (API call to the screening database), the **summarization and drafting** is AI, and the **risk decision** is always human. AI removes the reading and paperwork, not the judgment.
 
+## Workflow at a glance
+
+```mermaid
+flowchart TD
+    T(["New client onboarding, or<br/>periodic review date reached"]) --> A["Search inputs prepared automatically:<br/>all name spellings (EN + 中文),<br/>date of birth, ID numbers, officers"]
+    A --> B["Screening database searched<br/>(sanctions / PEP / adverse media);<br/>raw results archived untouched"]
+    B --> W{"Any potential<br/>matches?"}
+    W -->|"No"| F(["Clear CDD record filed;<br/>next review date scheduled"])
+    W -->|"Yes"| C["AI reads every hit and explains:<br/>how strong is the match, and why<br/>— 'for reviewer consideration'"]
+    C --> D["Exception raised to the<br/>company secretary with AI summary<br/>and raw results attached"]
+    D --> H{"Company secretary decides:<br/>true match or false alarm?<br/>Client follow-up needed?"}
+    H --> G(["Decision and reasoning written<br/>into the audit-ready CDD record"])
+    classDef ai fill:#ede7f6,stroke:#5e35b1,color:#1a1a1a
+    classDef human fill:#fff3e0,stroke:#ef6c00,color:#1a1a1a
+    classDef result fill:#e8f5e9,stroke:#2e7d32,color:#1a1a1a
+    class C ai
+    class H human
+    class F,G result
+```
+
+*Purple = AI does the work · Orange = a human decides · Green = the result. Note the search itself is deliberately **not** AI — completeness is a regulatory requirement.*
+
 ## Workflow
 
 | Step | Actor | Detail |

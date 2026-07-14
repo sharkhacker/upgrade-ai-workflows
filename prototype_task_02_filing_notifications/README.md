@@ -25,3 +25,8 @@ The CPA reviews the proposed fee and wording before sending; fees come from a co
 - Overdue filings are still generated and flagged `OVERDUE` rather than silently skipped.
 - Fee of 0 (NOA review service) renders as a reminder service, not a quotation.
 - Confirm-by date compresses to "as soon as possible" when under 14 days remain.
+
+## Demo evidence *(links added at submission)*
+
+- Live prompt thread (Claude / ChatGPT shared conversation): _link_
+- Screen recording of this prototype running: _link_

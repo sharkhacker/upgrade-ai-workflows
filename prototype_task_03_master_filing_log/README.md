@@ -31,3 +31,8 @@ The secretary validates computed deadlines the first time each company enters th
 - Filed obligations are excluded from alerts (no noise).
 - Overdue items stay in the digest until resolved — they never age out.
 - Companies without payroll/tax service don't generate 56AB/PTR noise.
+
+## Demo evidence *(links added at submission)*
+
+- Live prompt thread (Claude / ChatGPT shared conversation): _link_
+- Screen recording of this prototype running: _link_

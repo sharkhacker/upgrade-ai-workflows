@@ -4,6 +4,27 @@
 
 **Prototype: yes — covered by [`prototype_task_07_doc_distribution_tracking/`](../prototype_task_07_doc_distribution_tracking/)** (shared engine with task 7; annual-return packs are demo rows D002/D003/D009)
 
+## Workflow at a glance
+
+```mermaid
+flowchart TD
+    T(["Secretary approves the<br/>rolled-forward return (Task 9)"]) --> A["AI drafts the cover email explaining<br/>both items: the return to sign AND<br/>why CDD refresh papers are included"]
+    A --> B["Sent; return and CDD tracked<br/>as separate items — clients often<br/>return one without the other"]
+    B --> C{"Everything signed<br/>and returned?"}
+    C -->|"Yes"| F(["Filed with Companies Registry;<br/>master log entry cleared"])
+    C -->|"Not yet"| D["AI chasers at 7 / 14 / 21 days —<br/>naming exactly what's missing, and<br/>quoting the real filing deadline<br/>and late-fee bands"]
+    D --> H{"Staff approve chasers;<br/>secretary alerted inside 14 days<br/>of the statutory deadline"}
+    H --> B
+    classDef ai fill:#ede7f6,stroke:#5e35b1,color:#1a1a1a
+    classDef human fill:#fff3e0,stroke:#ef6c00,color:#1a1a1a
+    classDef result fill:#e8f5e9,stroke:#2e7d32,color:#1a1a1a
+    class A,D ai
+    class H human
+    class F result
+```
+
+*Purple = AI does the work · Orange = a human decides · Green = the result.*
+
 ## Workflow
 
 | Step | Actor | Detail |

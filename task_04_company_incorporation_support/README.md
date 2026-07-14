@@ -4,6 +4,30 @@
 
 **Prototype: design only** (document generation is demonstrated in task 6's sample; the CR e-filing step is deliberately human)
 
+## Workflow at a glance
+
+```mermaid
+flowchart TD
+    T(["New incorporation engagement"]) --> A["AI builds the tailored document<br/>checklist and drafts the request<br/>email to the client"]
+    A --> B["Client sends documents<br/>(IDs, address proof, share split)"]
+    B --> C["AI extracts the details, ticks off<br/>the checklist, and asks only for<br/>what's still missing"]
+    C --> D["AI fills in the incorporation<br/>information sheet (EN + 中文)"]
+    D --> H1{"Client reviews<br/>and comments"}
+    H1 --> E["AI applies the client's changes<br/>as a marked-up draft"]
+    E --> H2{"Company secretary<br/>approves final sheet"}
+    H2 --> F["CR-ready data pack:<br/>every field in portal order"]
+    F --> H3{"Staff enter data into the<br/>Companies Registry portal<br/>and verify — deliberately human"}
+    H3 --> G(["Company incorporated;<br/>record feeds Tasks 5 and 6"])
+    classDef ai fill:#ede7f6,stroke:#5e35b1,color:#1a1a1a
+    classDef human fill:#fff3e0,stroke:#ef6c00,color:#1a1a1a
+    classDef result fill:#e8f5e9,stroke:#2e7d32,color:#1a1a1a
+    class A,C,D,E ai
+    class H1,H2,H3 human
+    class F,G result
+```
+
+*Purple = AI does the work · Orange = a human decides · Green = the result.*
+
 ## Workflow
 
 | Step | Actor | Detail |

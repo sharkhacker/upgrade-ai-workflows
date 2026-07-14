@@ -8,6 +8,26 @@
 
 An annual return deadline is pure arithmetic: the NAR1 must be delivered within 42 days of the company's return date (its incorporation anniversary) under s.662 of the Companies Ordinance. Every company's deadline for every future year is knowable the day it's onboarded — so the design *computes* deadlines from the incorporation date rather than asking anyone to remember or type them.
 
+## Workflow at a glance
+
+```mermaid
+flowchart TD
+    T(["Every night, automatically"]) --> A["Each company's annual return<br/>deadline computed:<br/>anniversary date + 42 days"]
+    A --> B["Cross-checked against filings —<br/>already-filed returns stay silent"]
+    B --> C{"Overdue, or due<br/>within 30 days?"}
+    C -->|"No"| Z(["Tracked quietly —<br/>no noise"])
+    C -->|"Yes"| D["Appears in the secretary's<br/>daily digest; louder flags at<br/>14 and 7 days out"]
+    D --> H{"Company secretary<br/>follows up"}
+    H --> F(["Kicks off preparation (Task 9)<br/>and client notification (Task 2)"])
+    classDef ai fill:#ede7f6,stroke:#5e35b1,color:#1a1a1a
+    classDef human fill:#fff3e0,stroke:#ef6c00,color:#1a1a1a
+    classDef result fill:#e8f5e9,stroke:#2e7d32,color:#1a1a1a
+    class H human
+    class Z,F result
+```
+
+*Orange = a human decides · Green = the result. Deliberately no purple in the loop: deadline arithmetic is code, not AI — AI works upstream (reading documents at onboarding) and downstream (writing notifications).*
+
 ## Workflow
 
 | Step | Actor | Detail |

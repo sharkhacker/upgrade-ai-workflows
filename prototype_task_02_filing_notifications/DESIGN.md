@@ -8,6 +8,31 @@
 
 This is a revenue workflow disguised as an admin task — every notification is also a quotation. The design treats it that way: the fee comes from a controlled fee schedule (never model-invented), and the email is structured to convert: deadline → consequence → what we'll do → fee → confirm-by date.
 
+## Workflow at a glance
+
+```mermaid
+flowchart TD
+    T(["Filing enters the 60-day window<br/>(from the master filing log)"]) --> B["Pull together: client details,<br/>filing deadline, firm's fee schedule"]
+    B --> N{"Is it a tax payment<br/>notice (NOA)?"}
+    N -->|"Yes"| P["Payment reminders scheduled<br/>14, 7 and 1 days before due date"]
+    P --> Q(["Client reminded to pay,<br/>on their preferred channel"])
+    N -->|"No — it's a filing"| C["AI writes one email:<br/>deadline + what we'll do + fee"]
+    C --> H{"CPA checks the fee<br/>and wording"}
+    H --> S(["Notification sent to client"])
+    S --> R{"Client confirms<br/>within 7 days?"}
+    R -->|"Yes"| W(["Engagement confirmed —<br/>work begins"])
+    R -->|"No"| U["Automatic polite nudge;<br/>escalated to CPA at 14 days"]
+    U --> R
+    classDef ai fill:#ede7f6,stroke:#5e35b1,color:#1a1a1a
+    classDef human fill:#fff3e0,stroke:#ef6c00,color:#1a1a1a
+    classDef result fill:#e8f5e9,stroke:#2e7d32,color:#1a1a1a
+    class C ai
+    class H human
+    class Q,S,W result
+```
+
+*Purple = AI does the work · Orange = a human decides · Green = the result.*
+
 ## Workflow
 
 | Step | Actor | Detail |

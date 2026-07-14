@@ -4,6 +4,26 @@
 
 **Prototype: design only** — but the mechanism is proven by prototypes 2/4/5, which generate documents from structured records the same way; a sample first-minutes generation prompt is included below.
 
+## Workflow at a glance
+
+```mermaid
+flowchart TD
+    T(["Client-approved incorporation<br/>information sheet (from Task 4)"]) --> A["Document set determined from<br/>the company record: NNC1, articles,<br/>first minutes, CDD forms, registers"]
+    A --> B["AI fills the firm's own templates<br/>with facts from the record —<br/>it never invents legal wording"]
+    B --> C["AI second pass cross-checks<br/>everything: names, share numbers,<br/>dates consistent across all documents"]
+    C --> D["Discrepancy report:<br/>anything inconsistent or missing,<br/>flagged — never guessed"]
+    D --> H{"Company secretary reviews<br/>the pack with the discrepancy<br/>report in hand"}
+    H --> F(["Complete signing pack —<br/>flows into Task 7 distribution"])
+    classDef ai fill:#ede7f6,stroke:#5e35b1,color:#1a1a1a
+    classDef human fill:#fff3e0,stroke:#ef6c00,color:#1a1a1a
+    classDef result fill:#e8f5e9,stroke:#2e7d32,color:#1a1a1a
+    class B,C ai
+    class H human
+    class D,F result
+```
+
+*Purple = AI does the work · Orange = a human decides · Green = the result.*
+
 ## Workflow
 
 | Step | Actor | Detail |

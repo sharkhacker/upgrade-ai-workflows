@@ -8,6 +8,27 @@
 
 An annual return is 95% last year's return. The valuable human question is not "fill in these forms" but "what changed?" — so the design centres on an AI-generated **change summary**, and the roll-forward itself is template-filling from the company record.
 
+## Workflow at a glance
+
+```mermaid
+flowchart TD
+    T(["Annual return due in 30 days<br/>(from the master log, Task 8)"]) --> A["Gather: last year's return +<br/>current company record, including<br/>every change filed during the year"]
+    A --> B["AI rolls the return forward —<br/>missing facts marked 'MISSING',<br/>never guessed"]
+    B --> C["AI writes the change summary:<br/>'Since last year: director X resigned,<br/>500 shares transferred. Nothing else.'"]
+    C --> W{"Record and last return<br/>disagree with no filing<br/>in between?"}
+    W -->|"Yes"| E{"Exception — possible unfiled<br/>change, secretary investigates"}
+    W -->|"No"| H{"Company secretary reviews<br/>the draft with the change<br/>summary on top — minutes, not hours"}
+    H --> F(["Approved return — flows into<br/>Task 10 for client signature"])
+    classDef ai fill:#ede7f6,stroke:#5e35b1,color:#1a1a1a
+    classDef human fill:#fff3e0,stroke:#ef6c00,color:#1a1a1a
+    classDef result fill:#e8f5e9,stroke:#2e7d32,color:#1a1a1a
+    class B,C ai
+    class H,E human
+    class F result
+```
+
+*Purple = AI does the work · Orange = a human decides · Green = the result.*
+
 ## Workflow
 
 | Step | Actor | Detail |

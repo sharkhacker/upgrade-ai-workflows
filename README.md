@@ -15,6 +15,8 @@ Redesign of 12 manual admin workflows for a Hong Kong company secretarial / acco
 
 Shared across tasks: [`data/`](data/) (the dummy client dataset all tasks operate on) and [`shared/`](shared/) (the reminder engine, the Claude/GPT wrapper, and the production Google Apps Script).
 
+**Every design opens with a flow diagram** (GitHub renders them automatically). One color language throughout: **purple = AI does the work, orange = a human decides, green = the result.** If you read nothing else in a folder, the diagram tells the story.
+
 ## Task index
 
 | # | Task | Folder | Working prototype |

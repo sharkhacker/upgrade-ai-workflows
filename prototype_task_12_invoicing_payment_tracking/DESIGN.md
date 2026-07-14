@@ -8,6 +8,33 @@
 
 I've automated receivables follow-up for finance teams before, and the two rules that matter are: (1) the model never decides amounts or payment status — those are data; and (2) dunning tone must escalate *by policy*, not by model mood, because these are ongoing professional relationships. The automation decides *when and what stage*; the AI writes *the words*.
 
+## Workflow at a glance
+
+```mermaid
+flowchart TD
+    T(["Work completed —<br/>invoice created from fee schedule"]) --> A["AI drafts the invoice email:<br/>thanks, service summary,<br/>amount, due date, how to pay"]
+    A --> H1{"Accountant approves"}
+    H1 --> B["Sent; payment status<br/>checked daily"]
+    B --> C{"Paid?"}
+    C -->|"Yes — confirmed by a human,<br/>never assumed"| F(["Records updated,<br/>receipt sent, done"])
+    C -->|"1–14 days overdue"| D1["AI: polite nudge —<br/>assumes oversight"]
+    C -->|"15–30 days"| D2["AI: firm — asks for a<br/>payment date, invites questions"]
+    C -->|"30+ days"| D3["AI: final notice — work may<br/>pause; partner sees it on the<br/>aged-receivables summary"]
+    D1 --> H2{"Accountant approves<br/>each email"}
+    D2 --> H2
+    D3 --> H2
+    H2 --> B
+    B -.->|"client disputes the invoice"| P{"Dunning paused —<br/>routed to accountant"}
+    classDef ai fill:#ede7f6,stroke:#5e35b1,color:#1a1a1a
+    classDef human fill:#fff3e0,stroke:#ef6c00,color:#1a1a1a
+    classDef result fill:#e8f5e9,stroke:#2e7d32,color:#1a1a1a
+    class A,D1,D2,D3 ai
+    class H1,H2,P human
+    class F result
+```
+
+*Purple = AI does the work · Orange = a human decides · Green = the result.*
+
 ## Workflow
 
 | Step | Actor | Detail |
