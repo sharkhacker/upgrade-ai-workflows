@@ -36,7 +36,9 @@ Two ideas drive every design:
 
 ## Where to go next
 
-- **Non-technical readers:** the 12 design write-ups (folder `docs/` in the repo, or the PDF pack in this Drive folder) — each is 1–2 pages: trigger, AI steps, tools, human checkpoints, output, edge cases.
-- **Technical readers:** the GitHub repo — every prototype runs with plain Python, no installs; sample outputs are committed.
+The repo has **one folder per task** — folders named `prototype_task_NN_...` contain a working build, folders named `task_NN_...` are written designs. Each folder is self-contained: the design write-up (trigger, AI steps, tools, human checkpoints, output, edge cases), plus for prototypes the runnable code, its AI prompts, and committed sample outputs so you can review results without running anything.
+
+- **Non-technical readers:** open any task folder and read the README/DESIGN — each is 1–2 pages of plain language.
+- **Technical readers:** every prototype runs with plain Python, no installs — instructions in each folder's README.
 
 *No real client data anywhere — all companies, letters and figures are fabricated.*
