@@ -1,11 +1,18 @@
 === EMAIL ===
-Subject: URGENT: Incoming legal urgent received — action may be required
-Dear Emily Cheung,
+Subject: URGENT: Writ of Summons Received — Response Required by 25 July 2026
 
-We received the following at your registered office today: [template mode] Legal document received — statutory response window applies (from In The District Court Of The). Recommended next step: notify client and file.
+Dear Emily,
+
+We have received a Writ of Summons from the District Court of Hong Kong, issued on behalf of Fresh Produce Wholesale Co., claiming HKD 187,400 for goods sold and delivered. Acknowledgement of service must be filed by **25 July 2026** (14 days from service). Failure to respond by this deadline may result in a default judgment against your company.
+
+As this is a legal matter, we strongly recommend that you instruct your solicitors immediately. We do not provide legal advice, but the original documents are available for collection at our office at your earliest convenience.
+
+Please confirm receipt of this notice and let us know how you wish to proceed.
 
 Client Services Team
+
 === WHATSAPP ===
-Hi Emily, We received the following at your registered office today: [template mode] Legal document received — statutory response window applies (from In The District Court Of The). Recommended next step: notify client and file.
+Hi Emily, ⚠️ 截止日期：2026年7月25日 — 我們今日收到區域法院代表鮮活批發有限公司向貴公司發出的傳訊令狀，涉及金額HKD 187,400，須於14日內確認送達。我們建議妳盡快委託律師處理，原件可到我們辦公室領取。請確認收到此訊息並告知下一步安排。
+
 === WECHAT ===
-[template mode] We received the following at your registered office today: [template mode] Legal document received — statutory response window applies (from In The District Court Of The). Recommended next step: notify client and file.
+⚠️ 緊急：截止日期 2026年7月25日 — 我們收到香港區域法院代表鮮活批發有限公司向九龍灣餐飲集團有限公司發出的傳訊令狀，索償金額為港幣187,400元，須於14日內提交確認送達書。我們建議閣下立即委託律師處理此事，逾期未回覆可能導致缺席判決。原件現可到本所辦公室領取，請確認收悉並告知如何跟進。

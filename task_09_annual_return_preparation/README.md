@@ -70,3 +70,7 @@ Draft NAR1 dataset + change summary, reviewer-ready; approved output feeds task 
 - **Unfiled changes discovered** (record says X, last return says Y, no filing in between) — flagged as an exception; this is how the automation *catches* compliance gaps instead of papering over them.
 - **Dormant companies** — summary states "no changes"; reviewer approval becomes a ten-second confirmation.
 - **Missing data** — explicit `MISSING` markers, never silent carry-forward of stale facts.
+
+## Demo evidence
+
+- Prompt log: [`prompt_log.md`](prompt_log.md) — the actual Claude conversation running this design's prompts on sample data (captured via Claude Code CLI, Bedrock-hosted)

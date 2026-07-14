@@ -45,14 +45,13 @@ The second principle: **AI drafts, humans decide, data stays out of the model's 
 Python 3.10+, standard library only — nothing to install.
 
 ```bash
-# with live AI drafting (Claude preferred, GPT also supported)
-export ANTHROPIC_API_KEY=sk-...        # or OPENAI_API_KEY
-
 # run everything against the fixed demo date
 for p in prototype_task_*/run.py; do python3 "$p" --today 2026-07-14; done
 ```
 
-Without an API key every prototype still runs end-to-end using clearly labelled `[template mode]` fallbacks — the same graceful-degradation pattern I use in production automations. Each prototype writes its generated emails, logs and registers to its own `sample_output/` folder (committed, so you can browse without running anything).
+The AI wrapper ([`shared/ai.py`](shared/ai.py)) picks the first available provider: `ANTHROPIC_API_KEY` (Claude API) → `OPENAI_API_KEY` (GPT) → the local **Claude Code CLI** in print mode (how the committed outputs were generated — Bedrock-hosted Claude) → clearly-labelled template fallbacks, so the pipeline always demonstrates end-to-end. Each prototype writes its generated emails, logs and registers to its own `sample_output/` folder (committed, so you can browse without running anything).
+
+**Prompt logs:** every AI-using task folder contains a committed `prompt_log.md` — the actual system prompt, user message and Claude's real response on the sample data. Regenerate them all with `python3 shared/capture_prompt_logs.py`.
 
 ## Tools used and why
 

@@ -1,7 +1,17 @@
-Subject: Invoice INV-2026-035 — Kowloon Bay F&B Group Limited — 17 days overdue
+**Subject:** Invoice INV-2026-035 — Kowloon Bay F&B Group Limited — 17 days overdue
 
-Dear Emily Cheung,
+---
 
-[template mode] This is our second notice; the invoice is 17 days overdue. invoice INV-2026-035 for "Employer's Return 56AB + payroll service Q2" (HKD 3300, due 2026-06-27) remains unpaid. Please arrange payment or contact us if there is an issue with the invoice.
+Emily 您好，
+
+關於發票 **INV-2026-035**（僱主報稅表 56AB 及第二季薪俸處理服務，金額 HKD 3,300），到期日為 2026年6月27日，目前已逾期 **17天**，至今仍未收到款項。
+
+煩請告知預計付款日期。如對發票內容有任何疑問或需要商討安排，歡迎隨時聯繫我們。
+
+付款方式：
+- 轉數快 FPS ID：123456789
+- 支票抬頭：本行名稱
+
+期待您的回覆。
 
 Accounts Team

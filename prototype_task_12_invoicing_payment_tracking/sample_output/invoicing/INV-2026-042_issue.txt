@@ -1,8 +1,21 @@
-Subject: Invoice INV-2026-042 — Lion Rock Technologies Limited — due 2026-08-13
+**Subject:** Invoice INV-2026-042 — Lion Rock Technologies Limited — due 13 August 2026
 
-Dear David Ng,
+---
 
-[template mode] Thank you for your business. Please find invoice INV-2026-042 for "Company incorporation package" — HKD 8800, due 2026-08-13.
-Payment: FPS ID 123456789, or cheque payable to the firm.
+Dear David,
 
-Accounts Team
+Thank you for choosing our firm to assist with the incorporation of Lion Rock Technologies Limited. We are pleased to confirm that the work has been completed.
+
+Please find attached Invoice INV-2026-042 for HKD 8,800, covering the company incorporation package. Payment is due by **13 August 2026**.
+
+Payment may be made by:
+
+- **FPS** — ID 123456789
+- **Cheque** — payable to the firm
+
+Should you have any questions regarding this invoice, please do not hesitate to contact us.
+
+We look forward to supporting Lion Rock Technologies going forward.
+
+Kind regards,
+**Accounts Team**

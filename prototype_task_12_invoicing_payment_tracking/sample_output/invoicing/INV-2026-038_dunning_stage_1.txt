@@ -1,7 +1,19 @@
-Subject: Invoice INV-2026-038 — Dragon Gate Logistics Limited — 4 days overdue
+**Subject:** Invoice INV-2026-038 — Dragon Gate Logistics Limited — 4 days overdue
 
-Dear Cathy Lam,
+---
 
-[template mode] We believe this is just an oversight — invoice INV-2026-038 for "Profits Tax Return 2025/26 preparation" (HKD 6800, due 2026-07-10) remains unpaid. Please arrange payment or contact us if there is an issue with the invoice.
+Cathy 您好，
+
+謹此提醒，發票 INV-2026-038（2025/26年度利得稅報稅表編製服務，金額 HKD 6,800）之付款日期為 2026年7月10日，目前尚未收到款項。
+
+如已安排付款，煩請忽略此函；如尚未處理，敬請安排結清。
+
+付款方式：
+- 轉數快（FPS）識別碼：123456789
+- 支票抬頭：本行名稱
+
+如有任何疑問，歡迎隨時聯絡我們。
+
+謝謝！
 
 Accounts Team

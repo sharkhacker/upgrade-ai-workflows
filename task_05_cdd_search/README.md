@@ -59,3 +59,7 @@ Complete CDD search record per client, exception escalations with reasoned AI pr
 - **Chinese-name transliterations** — search runs all name variants from the client record, the classic gap in manual CDD.
 - **Provider outage** — onboarding blocks rather than proceeds; CDD is a gate, not a beautifier.
 - **True hits** — immediate escalation, client-facing work pauses, and the record locks pending the secretary's determination.
+
+## Demo evidence
+
+- Prompt log: [`prompt_log.md`](prompt_log.md) — the actual Claude conversation running this design's prompts on sample data (captured via Claude Code CLI, Bedrock-hosted)

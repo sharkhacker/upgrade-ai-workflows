@@ -63,3 +63,7 @@ Complete, internally consistent incorporation pack: NNC1 data, articles, first m
 - **Missing facts** — generation refuses with `MISSING: <field>` rather than inventing (the single most important behaviour in document automation).
 - **Non-standard share structures** — flagged for manual drafting; the automation covers the standard 90%, not the exotic 10%.
 - **Bilingual names** — record holds both EN and 中文; the check pass verifies both forms wherever they appear.
+
+## Demo evidence
+
+- Prompt log: [`prompt_log.md`](prompt_log.md) — the actual Claude conversation running this design's prompts on sample data (captured via Claude Code CLI, Bedrock-hosted)

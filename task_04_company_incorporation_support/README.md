@@ -57,3 +57,7 @@ Complete incorporation information sheet (client-approved), structured company r
 - **Name availability** — proposed names checked against the CR index early; clashes surface before the client falls in love with a name.
 - **Corporate shareholders** — checklist branches to require the corporate entity's own CI/BR and authorized signatory evidence.
 - **Extraction uncertainty** (blurry scans, transliterated names) — flagged for human keying rather than silently guessed.
+
+## Demo evidence
+
+- Prompt log: [`prompt_log.md`](prompt_log.md) — the actual Claude conversation running this design's prompts on sample data (captured via Claude Code CLI, Bedrock-hosted)

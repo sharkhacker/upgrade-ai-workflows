@@ -1,11 +1,28 @@
 === EMAIL ===
-Subject: Incoming physical valuables received — action may be required
-Dear Client,
+Subject: URGENT: Physical Valuables Received from Your Solicitors — Instructions Required
 
-We received the following at your registered office today: [template mode] Physical valuables received and placed in secure storage (from Parcel Received - Front Desk Log Entry). Recommended next step: notify client and file.
+Dear Jack,
 
+We write to confirm that we have today received the following items via courier from Messrs. Cheung & Partners, Solicitors on behalf of North Point Engineering Limited:
+
+• Original share certificates No. 7 and No. 8
+• Executed instrument of transfer
+• Company chop (steel seal)
+
+All items have been placed in secure custody at our office. Given the nature of these documents, we recommend you consult your legal adviser regarding any further action.
+
+Please advise at your earliest convenience whether you would like us to:
+1. Continue to hold the items in secure custody;
+2. Arrange collection at our office; or
+3. Forward them to a specified address.
+
+We are happy to confirm safe receipt to Cheung & Partners once we have your instructions.
+
+Kind regards,
 Client Services Team
+
 === WHATSAPP ===
-Hi Client, We received the following at your registered office today: [template mode] Physical valuables received and placed in secure storage (from Parcel Received - Front Desk Log Entry). Recommended next step: notify client and file.
+Hi Jack, URGENT: We've received original share certificates No. 7 & 8, an executed transfer instrument, and your company chop (steel seal) from Messrs. Cheung & Partners today. All items are stored securely at our office. We recommend consulting your legal adviser regarding these documents — originals are available for collection. Please let us know ASAP whether you'd like us to hold, release for collection, or forward the items.
+
 === WECHAT ===
-[template mode] We received the following at your registered office today: [template mode] Physical valuables received and placed in secure storage (from Parcel Received - Front Desk Log Entry). Recommended next step: notify client and file.
+Hi Jack, URGENT: We've received original share certificates No. 7 & 8, an executed instrument of transfer, and your company chop (steel seal) sent by Messrs. Cheung & Partners. Everything is in secure storage at our office. We recommend you consult your legal adviser — the originals are available for collection. Please reply with your instructions on whether to hold, collect, or forward these items.
