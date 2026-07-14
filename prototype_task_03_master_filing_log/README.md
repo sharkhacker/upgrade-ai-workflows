@@ -34,5 +34,7 @@ The secretary validates computed deadlines the first time each company enters th
 
 ## Demo evidence *(links added at submission)*
 
-- Live prompt thread (Claude / ChatGPT shared conversation): _link_
+- Live Google Sheet (view-only) with the Apps Script reminder engine: _link_
 - Screen recording of this prototype running: _link_
+
+*(No prompt log for this task by design — deadline computation is deterministic code; AI sits upstream and downstream, see the design.)*

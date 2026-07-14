@@ -31,5 +31,5 @@ No notification is auto-sent. Drafts land in `sample_output/notifications/` for 
 
 ## Demo evidence *(links added at submission)*
 
-- Live prompt thread (Claude / ChatGPT shared conversation): _link_
+- Prompt log: [`prompt_log.md`](prompt_log.md) — exported Claude Code conversation running this task's prompts on the sample data
 - Screen recording of this prototype running: _link_
