@@ -26,10 +26,9 @@ The CPA reviews the proposed fee and wording before sending; fees come from a co
 - Fee of 0 (NOA review service) renders as a reminder service, not a quotation.
 - Confirm-by date compresses to "as soon as possible" when under 14 days remain.
 
-## Demo evidence *(links added at submission)*
+## Demo evidence
 
 - Prompt log: [`prompt_log.md`](prompt_log.md) — exported Claude Code conversation running this task's prompts on the sample data
-- Screen recording of this prototype running: _link_
 
 ## Screenshots
 

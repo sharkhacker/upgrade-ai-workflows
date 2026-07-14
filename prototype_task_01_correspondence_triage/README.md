@@ -29,10 +29,9 @@ No notification is auto-sent. Drafts land in `sample_output/notifications/` for 
 - Marketing junk → logged but never forwarded, keeping client channels high-signal.
 - Unrecognized items → routed to manual review rather than guessed.
 
-## Demo evidence *(links added at submission)*
+## Demo evidence
 
 - Prompt log: [`prompt_log.md`](prompt_log.md) — exported Claude Code conversation running this task's prompts on the sample data
-- Screen recording of this prototype running: _link_
 
 ## Screenshots
 

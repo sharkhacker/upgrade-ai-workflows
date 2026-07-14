@@ -25,10 +25,9 @@ Roughly half this firm's clients operate in Chinese (WeChat-preferred contacts i
 
 Secretary approves reminders before dispatch; stage-3 always lands on a human's desk with the full history.
 
-## Demo evidence *(links added at submission)*
+## Demo evidence
 
 - Prompt log: [`prompt_log.md`](prompt_log.md) — exported Claude Code conversation running this task's prompts on the sample data
-- Screen recording of this prototype running: _link_
 
 ## Screenshots
 

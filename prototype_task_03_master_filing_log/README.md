@@ -32,10 +32,9 @@ The secretary validates computed deadlines the first time each company enters th
 - Overdue items stay in the digest until resolved — they never age out.
 - Companies without payroll/tax service don't generate 56AB/PTR noise.
 
-## Demo evidence *(links added at submission)*
+## Demo evidence
 
-- Live Google Sheet (view-only) with the Apps Script reminder engine: _link_
-- Screen recording of this prototype running: _link_
+- Production deployment: paste `../shared/apps_script/reminder_engine.gs` into a Google Sheet (Extensions → Apps Script) with the `data/` CSVs as tabs and add a daily trigger — the same logic shown in the screenshots below runs serverlessly.
 
 *(No prompt log for this task by design — deadline computation is deterministic code; AI sits upstream and downstream, see the design.)*
 

@@ -27,10 +27,9 @@ Chasers are drafts — the secretary approves before sending. Escalations always
 - Signed documents drop out of the chase loop immediately.
 - Recently sent documents sit in a grace period rather than being chased on day 1.
 
-## Demo evidence *(links added at submission)*
+## Demo evidence
 
 - Prompt log: [`prompt_log.md`](prompt_log.md) — exported Claude Code conversation running this task's prompts on the sample data
-- Screen recording of this prototype running: _link_
 
 ## Screenshots
 
