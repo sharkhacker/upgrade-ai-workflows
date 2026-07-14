@@ -1,0 +1,10 @@
+doc_id,company_id,doc_type,category,sent_date,status,signer
+D001,C004,"CI + BR + NNC1 (new incorporation pack)",incorporation,2026-07-10,awaiting_signature,David Ng
+D002,C001,"Annual Return NAR1 2026 + CDD refresh forms",annual_return,2026-07-01,awaiting_signature,Alice Chan
+D003,C002,"Annual Return NAR1 2026",annual_return,2026-04-10,signed_returned,Brian Wong
+D004,C003,"Share Transfer - Instrument of Transfer + Bought & Sold Notes",change_doc,2026-06-25,awaiting_signature,Cathy Lam
+D005,C005,"Resignation and Appointment of Director (ND2A)",change_doc,2026-06-15,awaiting_signature,Emily Cheung
+D006,C006,"Change of Registered Office Address (NR1)",change_doc,2026-07-08,awaiting_signature,Frank Ho
+D007,C007,"Share Allotment (NSC1)",change_doc,2026-05-30,awaiting_signature,Grace Liu
+D008,C009,"Appointment of Company Secretary (ND2A)",change_doc,2026-07-02,signed_returned,Iris Tang
+D009,C010,"Annual Return NAR1 2026 + CDD refresh forms",annual_return,2026-07-12,awaiting_signature,Jack Yuen

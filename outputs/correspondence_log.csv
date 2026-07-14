@@ -1,0 +1,7 @@
+file,category,client,urgency,deadline,notify_client,summary,action
+letter_01_ird_ptr_notice.txt,statutory_tax,Dragon Gate Logistics Limited,normal,17 August 2026,True,[template mode] IRD tax correspondence with a filing deadline,notify client and file
+letter_02_bank_statement.txt,banking,Golden Harbour Trading Limited,low,30 June 2026,False,[template mode] Routine bank statement — no action required,log and file
+letter_03_cr_annual_return_reminder.txt,statutory_cr,Lion Rock Technologies Limited,normal,8 September 2026,True,[template mode] Companies Registry statutory filing reminder,notify client and file
+letter_04_marketing_junk.txt,marketing_junk,Unknown,low,-,False,[template mode] Unsolicited marketing material,log and file
+letter_05_court_summons.txt,legal_urgent,Kowloon Bay F&B Group Limited,urgent,-,True,[template mode] Legal document received — statutory response window applies,notify client and file
+letter_06_parcel_share_certs.txt,physical_valuables,Unknown,normal,-,True,[template mode] Physical valuables received and placed in secure storage,notify client and file

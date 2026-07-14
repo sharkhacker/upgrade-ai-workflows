@@ -1,0 +1,11 @@
+=== EMAIL ===
+Subject: Incoming physical valuables received — action may be required
+Dear Client,
+
+We received the following at your registered office today: [template mode] Physical valuables received and placed in secure storage (from Parcel Received - Front Desk Log Entry). Recommended next step: notify client and file.
+
+Client Services Team
+=== WHATSAPP ===
+Hi Client, We received the following at your registered office today: [template mode] Physical valuables received and placed in secure storage (from Parcel Received - Front Desk Log Entry). Recommended next step: notify client and file.
+=== WECHAT ===
+[template mode] We received the following at your registered office today: [template mode] Physical valuables received and placed in secure storage (from Parcel Received - Front Desk Log Entry). Recommended next step: notify client and file.

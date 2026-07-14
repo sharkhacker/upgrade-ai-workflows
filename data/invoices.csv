@@ -1,0 +1,8 @@
+invoice_no,company_id,description,amount_hkd,issue_date,due_date,status,paid_date
+INV-2026-041,C001,Annual Return filing 2026 + registered office service,4200,2026-07-13,2026-08-12,issued,
+INV-2026-038,C003,"Profits Tax Return 2025/26 preparation",6800,2026-06-10,2026-07-10,overdue,
+INV-2026-035,C005,Employer's Return 56AB + payroll service Q2,3300,2026-05-28,2026-06-27,overdue,
+INV-2026-042,C004,Company incorporation package,8800,2026-07-14,2026-08-13,draft,
+INV-2026-036,C002,Annual Return filing 2026,1200,2026-06-01,2026-07-01,paid,2026-06-24
+INV-2026-039,C010,Accounting services Q2 2026,5500,2026-06-30,2026-07-30,issued,
+INV-2026-037,C007,Share allotment documentation,2500,2026-06-05,2026-07-05,overdue,

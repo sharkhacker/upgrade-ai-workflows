@@ -1,0 +1,13 @@
+filing_id,company_id,filing_type,description,due_date,status
+F001,C001,NAR1,Annual Return 2026,2026-09-13,pending
+F002,C002,NAR1,Annual Return 2026,2026-04-26,filed
+F003,C003,PTR,Profits Tax Return 2025/26,2026-08-17,pending
+F004,C004,NAR1,Annual Return 2026,2026-09-08,pending
+F005,C005,56AB,Employer's Return 2025/26,2026-07-31,pending
+F006,C006,PTR,Profits Tax Return 2025/26,2026-11-16,pending
+F007,C007,NOA,Notice of Assessment - Profits Tax 2024/25,2026-07-25,payment_due
+F008,C008,NAR1,Annual Return 2026,2026-03-28,filed
+F009,C009,ITR,Individual Tax Return 2025/26 (Director),2026-08-03,pending
+F010,C010,PTR,Profits Tax Return 2025/26,2026-08-17,pending
+F011,C003,NOA,Notice of Assessment - Profits Tax 2024/25,2026-08-10,payment_due
+F012,C005,NAR1,Annual Return 2026,2026-06-20,overdue

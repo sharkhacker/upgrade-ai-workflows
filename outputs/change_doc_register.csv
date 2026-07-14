@@ -1,0 +1,6 @@
+doc_id,company,doc_type,sent_date,days_outstanding,status,reminder_stage,preferred_channel,language
+D004,Dragon Gate Logistics Limited,Share Transfer - Instrument of Transfer + Bought & Sold Notes,2026-06-25,19,awaiting_signature,2,wechat,zh
+D005,Kowloon Bay F&B Group Limited,Resignation and Appointment of Director (ND2A),2026-06-15,29,awaiting_signature,3,whatsapp,zh
+D006,Star Ferry Media Limited,Change of Registered Office Address (NR1),2026-07-08,6,awaiting_signature,0,email,en
+D007,Aberdeen Marine Supplies Limited,Share Allotment (NSC1),2026-05-30,45,awaiting_signature,3,wechat,zh
+D008,Happy Valley Wellness Limited,Appointment of Company Secretary (ND2A),2026-07-02,0,signed_returned,0,email,zh

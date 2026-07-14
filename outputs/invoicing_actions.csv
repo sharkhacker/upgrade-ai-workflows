@@ -1,0 +1,5 @@
+invoice,company,amount_hkd,action,days_overdue
+INV-2026-038,Dragon Gate Logistics Limited,6800,dunning stage 1,4
+INV-2026-035,Kowloon Bay F&B Group Limited,3300,dunning stage 2,17
+INV-2026-042,Lion Rock Technologies Limited,8800,issue,0
+INV-2026-037,Aberdeen Marine Supplies Limited,2500,dunning stage 1,9

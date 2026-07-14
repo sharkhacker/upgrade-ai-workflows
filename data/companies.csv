@@ -1,0 +1,11 @@
+company_id,name_en,name_zh,brn,incorporation_date,contact_name,email,phone,preferred_channel,language,services
+C001,Golden Harbour Trading Limited,金港貿易有限公司,71234561,2019-08-02,Alice Chan,alice.chan@goldenharbour.example.hk,+852 9123 0001,email,en,"cosec,accounting,tax"
+C002,Victoria Peak Consulting Limited,維多利亞山顧問有限公司,71234562,2021-03-15,Brian Wong,brian.wong@vpconsult.example.hk,+852 9123 0002,whatsapp,en,"cosec,tax"
+C003,Dragon Gate Logistics Limited,龍門物流有限公司,71234563,2018-11-20,Cathy Lam,cathy.lam@dragongate.example.hk,+852 9123 0003,wechat,zh,"cosec,accounting,tax,payroll"
+C004,Lion Rock Technologies Limited,獅子山科技有限公司,71234564,2022-07-28,David Ng,david.ng@lionrocktech.example.hk,+852 9123 0004,email,en,"cosec,accounting"
+C005,Kowloon Bay F&B Group Limited,九龍灣餐飲集團有限公司,71234565,2017-05-09,Emily Cheung,emily.cheung@kbfnb.example.hk,+852 9123 0005,whatsapp,zh,"cosec,accounting,tax,payroll"
+C006,Star Ferry Media Limited,天星傳媒有限公司,71234566,2020-09-30,Frank Ho,frank.ho@starferrymedia.example.hk,+852 9123 0006,email,en,"cosec,tax"
+C007,Aberdeen Marine Supplies Limited,香港仔海事用品有限公司,71234567,2016-01-25,Grace Liu,grace.liu@abdmarine.example.hk,+852 9123 0007,wechat,zh,"cosec,accounting"
+C008,Tsim Sha Tsui Retail Limited,尖沙咀零售有限公司,71234568,2023-02-14,Henry Kwok,henry.kwok@tstretail.example.hk,+852 9123 0008,whatsapp,en,"cosec,accounting,tax"
+C009,Happy Valley Wellness Limited,跑馬地健康有限公司,71234569,2019-07-21,Iris Tang,iris.tang@hvwellness.example.hk,+852 9123 0009,email,zh,"cosec,tax"
+C010,North Point Engineering Limited,北角工程有限公司,71234570,2015-12-03,Jack Yuen,jack.yuen@npeng.example.hk,+852 9123 0010,email,en,"cosec,accounting,tax,payroll"

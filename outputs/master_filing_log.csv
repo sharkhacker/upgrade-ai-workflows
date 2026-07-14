@@ -1,0 +1,25 @@
+company_id,company,filing_type,description,due_date,rule,days_remaining,status
+C007,Aberdeen Marine Supplies Limited,NAR1,Annual Return 2026 (anniversary 2026-01-25),2026-03-08,CO s.662: within 42 days of return date,-128,overdue
+C008,Tsim Sha Tsui Retail Limited,NAR1,Annual Return 2026 (anniversary 2026-02-14),2026-03-28,CO s.662: within 42 days of return date,-108,filed
+C002,Victoria Peak Consulting Limited,NAR1,Annual Return 2026 (anniversary 2026-03-15),2026-04-26,CO s.662: within 42 days of return date,-79,filed
+C003,Dragon Gate Logistics Limited,56AB,Employer's Return 2025/26,2026-05-02,IRD: 1 month from 1 Apr issue,-73,overdue
+C005,Kowloon Bay F&B Group Limited,56AB,Employer's Return 2025/26,2026-05-02,IRD: 1 month from 1 Apr issue,-73,overdue
+C010,North Point Engineering Limited,56AB,Employer's Return 2025/26,2026-05-02,IRD: 1 month from 1 Apr issue,-73,overdue
+C005,Kowloon Bay F&B Group Limited,NAR1,Annual Return 2026 (anniversary 2026-05-09),2026-06-20,CO s.662: within 42 days of return date,-24,overdue
+C007,Aberdeen Marine Supplies Limited,NOA,Notice of Assessment - Profits Tax 2024/25,2026-07-25,from register,11,due_soon
+C009,Happy Valley Wellness Limited,ITR,Individual Tax Return 2025/26 (Director),2026-08-03,from register,20,due_soon
+C003,Dragon Gate Logistics Limited,NOA,Notice of Assessment - Profits Tax 2024/25,2026-08-10,from register,27,due_soon
+C001,Golden Harbour Trading Limited,PTR,Profits Tax Return 2025/26,2026-08-17,"Block extension, Dec year-end ('D' code)",34,tracked
+C002,Victoria Peak Consulting Limited,PTR,Profits Tax Return 2025/26,2026-08-17,"Block extension, Dec year-end ('D' code)",34,tracked
+C003,Dragon Gate Logistics Limited,PTR,Profits Tax Return 2025/26,2026-08-17,"Block extension, Dec year-end ('D' code)",34,tracked
+C005,Kowloon Bay F&B Group Limited,PTR,Profits Tax Return 2025/26,2026-08-17,"Block extension, Dec year-end ('D' code)",34,tracked
+C006,Star Ferry Media Limited,PTR,Profits Tax Return 2025/26,2026-08-17,"Block extension, Dec year-end ('D' code)",34,tracked
+C008,Tsim Sha Tsui Retail Limited,PTR,Profits Tax Return 2025/26,2026-08-17,"Block extension, Dec year-end ('D' code)",34,tracked
+C009,Happy Valley Wellness Limited,PTR,Profits Tax Return 2025/26,2026-08-17,"Block extension, Dec year-end ('D' code)",34,tracked
+C010,North Point Engineering Limited,PTR,Profits Tax Return 2025/26,2026-08-17,"Block extension, Dec year-end ('D' code)",34,tracked
+C009,Happy Valley Wellness Limited,NAR1,Annual Return 2026 (anniversary 2026-07-21),2026-09-01,CO s.662: within 42 days of return date,49,tracked
+C004,Lion Rock Technologies Limited,NAR1,Annual Return 2026 (anniversary 2026-07-28),2026-09-08,CO s.662: within 42 days of return date,56,tracked
+C001,Golden Harbour Trading Limited,NAR1,Annual Return 2026 (anniversary 2026-08-02),2026-09-13,CO s.662: within 42 days of return date,61,tracked
+C006,Star Ferry Media Limited,NAR1,Annual Return 2026 (anniversary 2026-09-30),2026-11-11,CO s.662: within 42 days of return date,120,tracked
+C003,Dragon Gate Logistics Limited,NAR1,Annual Return 2026 (anniversary 2026-11-20),2027-01-01,CO s.662: within 42 days of return date,171,tracked
+C010,North Point Engineering Limited,NAR1,Annual Return 2026 (anniversary 2026-12-03),2027-01-14,CO s.662: within 42 days of return date,184,tracked
