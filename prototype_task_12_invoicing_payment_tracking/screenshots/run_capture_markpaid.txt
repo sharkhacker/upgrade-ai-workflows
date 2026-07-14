@@ -1,0 +1,6 @@
+$ python3 run.py --mark-paid INV-2026-038 --today 2026-07-15
+INV-2026-038 marked paid on 2026-07-15; register updated. (Production: receipt email auto-drafted for approval.)
+
+$ python3 run.py --today 2026-07-15   # re-run: dunning for INV-2026-038 stops
+AI provider: Claude Code CLI (print mode) | run date: 2026-07-15
+PAID    INV-2026-038  Dragon Gate Logistics Limited          settled 2026-07-15

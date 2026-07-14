@@ -36,3 +36,21 @@ Two deliberate ones: the accountant approves every outbound email, and **only a 
 
 - Prompt log: [`prompt_log.md`](prompt_log.md) — exported Claude Code conversation running this task's prompts on the sample data
 - Screen recording of this prototype running: _link_
+
+## Screenshots
+
+**Terminal run (issue + dunning stages, live via Claude Code CLI):**
+
+![terminal run](screenshots/terminal_run.png)
+
+**Payment confirmation flow (`--mark-paid`) — dunning stops:**
+
+![mark paid](screenshots/terminal_markpaid.png)
+
+**The Claude conversation behind it:**
+
+![conversation](screenshots/conversation.png)
+
+**Generated stage-2 dunning email:**
+
+![output](screenshots/output_INV-2026-035_dunning_stage_2.png)

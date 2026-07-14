@@ -1,0 +1,12 @@
+$ python3 run.py --today 2026-07-14
+AI provider: Claude Code CLI (print mode) | run date: 2026-07-14
+
+REMIND D004 Share Transfer - Instrument of Transfer + Bought & S  19d stage 2 -> D004_stage2_bilingual.txt
+REMIND D005 Resignation and Appointment of Director (ND2A)        29d stage 3 -> D005_stage3_bilingual.txt
+WAIT  D006 Change of Registered Office Address (NR1)              6d — inside grace period
+REMIND D007 Share Allotment (NSC1)                                45d stage 3 -> D007_stage3_bilingual.txt
+OK    D008 Appointment of Company Secretary (ND2A)                signed & returned
+
+2 item(s) escalated to company secretary
+Register -> sample_output/change_doc_register.csv
+Human checkpoint: secretary approves reminders; channel follows client preference.

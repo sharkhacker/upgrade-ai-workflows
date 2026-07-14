@@ -38,3 +38,13 @@ The secretary validates computed deadlines the first time each company enters th
 - Screen recording of this prototype running: _link_
 
 *(No prompt log for this task by design — deadline computation is deterministic code; AI sits upstream and downstream, see the design.)*
+
+## Screenshots
+
+**Terminal run (deadlines computed + alert digest):**
+
+![terminal run](screenshots/terminal_run.png)
+
+**Generated digest email:**
+
+![output](screenshots/output_alert_digest_email.png)

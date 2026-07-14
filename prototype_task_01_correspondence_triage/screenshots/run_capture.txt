@@ -1,0 +1,17 @@
+$ python3 run.py --today 2026-07-14
+AI provider: Claude Code CLI (print mode)
+
+   letter_01_ird_ptr_notice.txt               -> statutory_tax      notify=True
+     drafts -> prototype_task_01_correspondence_triage/sample_output/notifications/letter_01_ird_ptr_notice_drafts.txt
+   letter_02_bank_statement.txt               -> banking            notify=False
+   letter_03_cr_annual_return_reminder.txt    -> statutory_cr       notify=True
+     drafts -> prototype_task_01_correspondence_triage/sample_output/notifications/letter_03_cr_annual_return_reminder_drafts.txt
+   letter_04_marketing_junk.txt               -> marketing_junk     notify=False
+!! letter_05_court_summons.txt                -> legal_urgent       notify=True
+     drafts -> prototype_task_01_correspondence_triage/sample_output/notifications/letter_05_court_summons_drafts.txt
+   letter_06_parcel_share_certs.txt           -> physical_valuables notify=True
+     drafts -> prototype_task_01_correspondence_triage/sample_output/notifications/letter_06_parcel_share_certs_drafts.txt
+
+Logged 6 items (4 client notifications drafted)
+Log -> prototype_task_01_correspondence_triage/sample_output/correspondence_log.csv
+Human checkpoint: review drafts in sample_output/notifications/ before sending.

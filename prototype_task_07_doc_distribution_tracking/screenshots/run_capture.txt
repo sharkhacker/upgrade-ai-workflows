@@ -1,0 +1,8 @@
+$ python3 run.py --today 2026-07-14
+AI provider: Claude Code CLI (print mode) | run date: 2026-07-14
+
+WAIT D001 CI + BR + NNC1 (new incorporation pack)            4d — inside grace period
+CHASE D002 Annual Return NAR1 2026 + CDD refresh forms       13d -> stage 1 (gentle reminder) -> D002_stage1.txt
+OK   D003 Annual Return NAR1 2026                            signed & returned
+WAIT D009 Annual Return NAR1 2026 + CDD refresh forms        2d — inside grace period
+Human checkpoint: chasers are drafts; secretary approves before sending.

@@ -74,3 +74,7 @@ Draft NAR1 dataset + change summary, reviewer-ready; approved output feeds task 
 ## Demo evidence
 
 - Prompt log: [`prompt_log.md`](prompt_log.md) — the actual Claude conversation running this design's prompts on sample data (captured via Claude Code CLI, Bedrock-hosted)
+
+### Screenshot — the Claude conversation
+
+![conversation](screenshots/conversation.png)

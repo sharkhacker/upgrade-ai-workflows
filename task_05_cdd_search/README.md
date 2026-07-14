@@ -63,3 +63,7 @@ Complete CDD search record per client, exception escalations with reasoned AI pr
 ## Demo evidence
 
 - Prompt log: [`prompt_log.md`](prompt_log.md) — the actual Claude conversation running this design's prompts on sample data (captured via Claude Code CLI, Bedrock-hosted)
+
+### Screenshot — the Claude conversation
+
+![conversation](screenshots/conversation.png)

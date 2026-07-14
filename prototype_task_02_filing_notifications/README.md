@@ -30,3 +30,17 @@ The CPA reviews the proposed fee and wording before sending; fees come from a co
 
 - Prompt log: [`prompt_log.md`](prompt_log.md) — exported Claude Code conversation running this task's prompts on the sample data
 - Screen recording of this prototype running: _link_
+
+## Screenshots
+
+**Terminal run (live via Claude Code CLI):**
+
+![terminal run](screenshots/terminal_run.png)
+
+**The Claude conversation behind it (from `prompt_log.md`):**
+
+![conversation](screenshots/conversation.png)
+
+**Generated output:**
+
+![output](screenshots/output_F005_56AB_C005.png)

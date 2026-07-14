@@ -1,0 +1,13 @@
+$ python3 run.py --today 2026-07-14
+AI provider: Claude Code CLI (print mode) | run date: 2026-07-14
+
+MAIL Dragon Gate Logistics Limited          PTR   due in  34d -> F003_PTR_C003.txt
+MAIL Lion Rock Technologies Limited         NAR1  due in  56d -> F004_NAR1_C004.txt
+MAIL Kowloon Bay F&B Group Limited          56AB  due in  17d -> F005_56AB_C005.txt
+NOA  Aberdeen Marine Supplies Limited       payment due 2026-07-25 -> 3 alerts scheduled
+MAIL Happy Valley Wellness Limited          ITR   due in  20d -> F009_ITR_C009.txt
+MAIL North Point Engineering Limited        PTR   due in  34d -> F010_PTR_C010.txt
+NOA  Dragon Gate Logistics Limited          payment due 2026-08-10 -> 3 alerts scheduled
+
+Payment alert schedule -> prototype_task_02_filing_notifications/sample_output/payment_alerts.csv
+Human checkpoint: CPA reviews fee and email before anything is sent.

@@ -29,3 +29,17 @@ Secretary approves reminders before dispatch; stage-3 always lands on a human's 
 
 - Prompt log: [`prompt_log.md`](prompt_log.md) — exported Claude Code conversation running this task's prompts on the sample data
 - Screen recording of this prototype running: _link_
+
+## Screenshots
+
+**Terminal run (live via Claude Code CLI):**
+
+![terminal run](screenshots/terminal_run.png)
+
+**The Claude conversation behind it (from `prompt_log.md`):**
+
+![conversation](screenshots/conversation.png)
+
+**Generated output:**
+
+![output](screenshots/output_D005_stage3_bilingual.png)

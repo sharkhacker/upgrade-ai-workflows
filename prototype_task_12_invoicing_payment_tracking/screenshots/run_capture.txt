@@ -1,0 +1,13 @@
+$ python3 run.py --today 2026-07-14
+AI provider: Claude Code CLI (print mode) | run date: 2026-07-14
+
+CURRENT INV-2026-041  Golden Harbour Trading Limited         due 2026-08-12
+DUN-1   INV-2026-038  Dragon Gate Logistics Limited          HKD   6800 -> INV-2026-038_dunning_stage_1.txt
+DUN-2   INV-2026-035  Kowloon Bay F&B Group Limited          HKD   3300 -> INV-2026-035_dunning_stage_2.txt
+ISSUE   INV-2026-042  Lion Rock Technologies Limited         HKD   8800 -> INV-2026-042_issue.txt
+PAID    INV-2026-036  Victoria Peak Consulting Limited       settled 2026-06-24
+CURRENT INV-2026-039  North Point Engineering Limited        due 2026-07-30
+DUN-1   INV-2026-037  Aberdeen Marine Supplies Limited       HKD   2500 -> INV-2026-037_dunning_stage_1.txt
+
+Action log -> prototype_task_12_invoicing_payment_tracking/sample_output/invoicing_actions.csv
+Human checkpoint: accountant approves all outbound emails; only a human confirms receipt of payment (--mark-paid).

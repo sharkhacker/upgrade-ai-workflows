@@ -1,0 +1,16 @@
+$ python3 run.py --today 2026-07-14
+Master filing log: 24 obligations across 10 companies -> prototype_task_03_master_filing_log/sample_output/master_filing_log.csv
+
+ALERT DIGEST (window = 30 days, run date 2026-07-14)
+------------------------------------------------------------------------------
+OVERDUE  2026-03-08  NAR1  Aberdeen Marine Supplies Limited      
+OVERDUE  2026-05-02  56AB  Dragon Gate Logistics Limited         
+OVERDUE  2026-05-02  56AB  Kowloon Bay F&B Group Limited         
+OVERDUE  2026-05-02  56AB  North Point Engineering Limited       
+OVERDUE  2026-06-20  NAR1  Kowloon Bay F&B Group Limited         
+T-11     2026-07-25  NOA   Aberdeen Marine Supplies Limited      
+T-20     2026-08-03  ITR   Happy Valley Wellness Limited         
+T-27     2026-08-10  NOA   Dragon Gate Logistics Limited         
+
+Digest email -> prototype_task_03_master_filing_log/sample_output/alert_digest_email.txt
+Human checkpoint: secretary validates computed deadlines on first run per company.
